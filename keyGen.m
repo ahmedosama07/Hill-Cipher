@@ -3,4 +3,3 @@ function key = keyGen(n)
 %   key generator function
 key = randi([0 26], n,'uint8');
 end
-
