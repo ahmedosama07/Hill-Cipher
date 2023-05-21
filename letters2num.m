@@ -3,4 +3,3 @@ function num = letters2num(word)
 %   function returns the numerical value of letters
 num = double(upper(word)) - double('A');
 end
-
