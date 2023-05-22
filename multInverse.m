@@ -13,4 +13,3 @@ end
 m = G == 1;
 K(m) = mod(C(m), base);
 end
-
