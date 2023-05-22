@@ -1,2 +1,2 @@
-# Hill-Cypher
-This repo implements the algorithm of Hill Cypher encryption and decryption.
+# Hill-Cipher
+This repo implements the algorithm of Hill Cipher encryption and decryption.
