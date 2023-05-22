@@ -3,4 +3,3 @@ function word = nums2letters(nums)
 %   function returns letter corresponding to a number
 word = char(nums + double('A'));
 end
-
