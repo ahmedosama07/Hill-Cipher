@@ -9,7 +9,7 @@ K = NaN(size(determinant));
 if isa(base,'sym')
   K = sym(K);
 end
-[G,C] = gcd(determinant, base);
+[G,C] = gcd(round(determinant), base);
 m = G == 1;
 K(m) = mod(C(m), base);
 end
