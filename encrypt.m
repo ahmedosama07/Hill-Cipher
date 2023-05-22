@@ -1,6 +1,6 @@
 function [c, k] = encrypt(text)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%encrypt Summary of this function goes here
+%   function for Hill cipher encryption
 plainText = cleanText(text);
 p = letters2num(plainText);
 factors = factor(size(p, 2));
