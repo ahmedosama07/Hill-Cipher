@@ -3,8 +3,8 @@ function key = keyGen(n)
 %   key generator function
 base = 26;
 t = 1;
-while t
+while t ~= 1
     key = randi([0 26], n);
-    t = isnan(multInverse(int32(det(key)), base));
+    t = gcd(det(key), base);
 end
 end
