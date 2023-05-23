@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="4145808514" file="D:\Engineering\College\Year 2\Second Term\Computational Math\Projects\Hill-Cipher\Hill-Cipher.prj" location="D:\Engineering\College\Year 2\Second Term\Computational Math\Projects\Hill-Cipher" name="Hill-Cipher" preferred-package-location="D:\Engineering\College\Year 2\Second Term\Computational Math\Projects\Hill-Cipher\Hill-Cipher\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="1935640444" file="D:\Engineering\College\Year 2\Second Term\Computational Math\Projects\Hill-Cipher\Hill-Cipher.prj" location="D:\Engineering\College\Year 2\Second Term\Computational Math\Projects\Hill-Cipher" name="Hill-Cipher" preferred-package-location="D:\Engineering\College\Year 2\Second Term\Computational Math\Projects\Hill-Cipher\Hill-Cipher\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>main</param.appname>
     <param.icon />
     <param.icons />
@@ -41,9 +41,7 @@
 	 
  Input Arguments 
 	 -?  print help on how to use the application 
-	 input arguments 
- Description 
- 	 GUI application to perform Hill Cipher algorithm for both encryption and decryption</param.help.text>
+	 input arguments</param.help.text>
     <unset>
       <param.icon />
       <param.icons />
@@ -95,6 +93,7 @@
       <file>${PROJECT_ROOT}\letters2num.m</file>
       <file>${PROJECT_ROOT}\multInverse.m</file>
       <file>${PROJECT_ROOT}\nums2letters.m</file>
+      <file>D:\Engineering\College\Year 2\Second Term\Computational Math\Projects\Linear-Regression\main.mlapp</file>
     </fileset.depfun>
     <build-deliverables>
       <file location="${PROJECT_ROOT}\Hill-Cipher\for_testing" name="main.exe" optional="false">D:\Engineering\College\Year 2\Second Term\Computational Math\Projects\Hill-Cipher\Hill-Cipher\for_testing\main.exe</file>
