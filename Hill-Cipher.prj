@@ -83,7 +83,6 @@
     <fileset.resources />
     <fileset.package />
     <fileset.depfun>
-      <file>${PROJECT_ROOT}\adjoint.m</file>
       <file>${PROJECT_ROOT}\cleanText.m</file>
       <file>${PROJECT_ROOT}\decrypt.m</file>
       <file>${PROJECT_ROOT}\decryption.mlapp</file>
