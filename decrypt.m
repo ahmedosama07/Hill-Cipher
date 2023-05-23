@@ -3,7 +3,7 @@ function p = decrypt(c, k)
 %   function for Hill cipher decryption
 base = 26;
 c = letters2num(c);
-kInv = mod(multInverse(det(k), base) * mod(adjoint(k), base), base);
+kInv = round(mod(multInverse(det(k), base) * mod(adjoint(k), base), base));
 
 m = size(k, 2);
 n = size(c, 2) / m;
